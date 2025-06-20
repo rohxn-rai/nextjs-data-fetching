@@ -16,6 +16,7 @@ const getStaticProps = async () => {
     props: {
       featuredEvents,
     },
+    revalidate: 1800,
   };
 };
 
